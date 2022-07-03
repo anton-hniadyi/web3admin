@@ -93,7 +93,7 @@ module.exports = {
                 }),
                 new web3.extend.Method({
                     name: 'chainSyncStatus',
-                    getter: 'admin_chainSyncStatus',
+                    call: 'admin_chainSyncStatus',
                     outputFormatter: function(obj) { return obj; }
                 })
             ]
